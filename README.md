@@ -1,83 +1,68 @@
-# Memòria del Projecte: RoomMatch
+# Memoria del Proyecto: RoomMatch
 
-## 1. Títol
+## 1. Título
+**RoomMatch: Plataforma Web para conectar personas con gustos compartidos para compartir piso**
 
-**RoomMatch: Plataforma Web para Conectar Personas con Gustos Compartidos para compratir piso**
+## 2. Integrantes del proyecto
+- **Daniel Puente**: Desarrollador Frontend y Diseñador de Interfaz
+- **Cristian Domínguez**: Desarrollador Backend y Gestión de Base de Datos
 
-## 2. Integrants del projecte
+## 3. Objetivos
+Los objetivos principales de este proyecto escolar son:
+- Desarrollar una plataforma web intuitiva que permita a los usuarios encontrar personas con intereses comunes para convivir.
+- Implementar un sistema de "matching" basado en preferencias y gustos personales (música, cine, estilo de vida).
+- Crear una interfaz limpia y alineada que facilite la navegación del usuario.
+- Aprender a gestionar el despliegue de una aplicación en un entorno de servidor.
 
-- **Daniel Puente**: Desenvolupador Frontend i Dissenyador d'Interfície
-- **Cristian Domínguez**: Desenvolupadora Backend i Gestió de Base de Dades
+## 4. Explicación del proyecto
+RoomMatch es una aplicación web diseñada para resolver la dificultad de encontrar compañeros de piso compatibles. En lugar de centrarse solo en la habitación, el proyecto se enfoca en las afinidades entre las personas.
 
-## 3. Objectius
+Inspirada en el funcionamiento de Tinder, la app permite al usuario ver perfiles de posibles compañeros y decidir si hay una buena conexión según sus intereses. Las funcionalidades que hemos trabajado incluyen:
+- Creación de perfiles con selección de gustos.
+- Algoritmo que sugiere usuarios compatibles.
+- Interfaz visual con sistema de "like" y "pass".
+- Chat integrado para las interacciones.
 
-Els objectius principals del projecte són:
+## 5. Material del proyecto
 
-- Desenvolupar una plataforma web intuïtiva similar a Tinder que permeti als usuaris trobar persones amb interessos comuns.
-- Implementar un sistema de matching basat en preferències i gustos personals.
-- Assegurar una experiència d'usuari segura i privada.
-- Crear una aplicació escalable i fàcil de mantenir.
+### Hardware:
+- Ordenadores utilizados durante las horas de clase para el desarrollo.
+- Servidor (Raspberry Pi o Cloud) para realizar las pruebas de despliegue.
 
-## 4. Explicació del projecte
+### Software:
+- **Frontend**: React.js para la parte visual y la interfaz.
+- **Backend**: Node.js y Express para la lógica del servidor.
+- **Base de datos**: MongoDB para guardar los usuarios y sus gustos.
+- **Control de versiones**: Git y GitHub para el código.
 
-RoomMatch és una aplicació web dissenyada per connectar persones que comparteixen aficions i interessos. Inspirada en Tinder, però enfocada en compatibilitat de gustos en lloc d'atracció física, la plataforma resol la necessitat de trobar amics o companys amb interessos similars en àrees com música, cinema, esports, lectura, etc.
+## 6. Desarrollo y despliegue (app y servidor)
+El desarrollo se ha realizado siguiendo los aprendizajes del curso. El frontend se ha centrado en conseguir una maquetación cuidada (CSS alineado y estructurado) para hacer la web atractiva. El backend gestiona la entrada y salida de datos mediante APIs.
 
-L'app està dirigida a joves adults interessats en expandir el seu cercle social a través de connexions significatives basades en afinitats comunes. Les funcionalitats principals inclouen:
+Para el despliegue, hemos configurado el servidor para que la aplicación sea accesible, utilizando Docker para facilitar la instalación y Nginx como gestor de la seguridad y el acceso.
 
-- Perfil d'usuari amb selecció de gustos i preferències.
-- Algorisme de matching que suggereix usuaris compatibles.
-- Xat integrat per a interaccions.
-- Sistema de "like" i "pass" per navegar perfils.
+## 7. Planificación (historias, sprints y diagrama de Gantt)
 
-## 5. Material del projecte
-
-### Maquinari:
-
-- Ordinadors amb processadors Intel i7 o equivalents.
-- Servidor dedicat per al desplegament (mínim 4GB RAM, 100GB SSD).
-
-### Programari:
-
-- Node.js per al backend.
-- React.js per al frontend.
-- MongoDB per a la base de dades.
-- Git per al control de versions.
-- Docker per a la containerització.
-
-## 6. Desenvolupament i desplegament (app i servidor)
-
-El desenvolupament es va realitzar utilitzant metodologies àgils. El frontend es va construir amb React.js, implementant components reutilitzables i un disseny responsive. El backend utilitza Express.js amb Node.js, gestionant l'autenticació JWT i les APIs REST.
-
-Per al desplegament, l'app es va containeritzar amb Docker i es va publicar en un servidor cloud (AWS EC2). El servidor es va configurar amb Nginx com a proxy invers, assegurant seguretat SSL i escalabilitat. Es van realitzar proves de càrrega per verificar el funcionament sota alta demanda.
-
-## 7. Planificació (històries, sprints i diagrama de Gantt)
-
-### Històries d'usuari:
-
-- Com a usuari, vull crear un perfil amb els meus gustos per trobar persones similars.
-- Com a usuari, vull rebre suggeriments de matching basats en compatibilitat.
-- Com a usuari, vull xatejar amb usuaris compatibles.
+### Historias de usuario:
+- Como usuario, quiero crear un perfil con mis gustos para encontrar compañeros similares.
+- Como usuario, quiero recibir sugerencias basadas en mi compatibilidad.
+- Como usuario, quiero poder navegar por los perfiles de forma rápida y visual.
 
 ### Sprints:
-
-- **Creació Diagrama De Gantt**: Planificación del proyecto
-- **Configurar servidor raspberry**: Instalar S.O.
-- **Página inicio**: HTML, CS y JS
-- **Enlaces entre páginas**: Botones simulados
-- **Revisar textos**: Revisar colores
-- **Capturas**: Explicar y desplegar el proyecto
-- **Revisión final**: Entregar proyecto
+- **Creación Diagrama De Gantt**: Planificación inicial del trabajo y tiempos.
+- **Configurar servidor raspberry**: Instalación del sistema operativo y entorno.
+- **Página inicio**: Desarrollo del HTML, CSS y JS de la sección principal.
+- **Enlaces entre páginas**: Programación de la navegación y botones simulados.
+- **Revisar textos y diseño**: Corrección de colores y alineación de las imágenes.
+- **Capturas y documentación**: Explicación del proyecto y preparación de la memoria.
+- **Revisión final**: Comprobación de que todo funciona correctamente antes de la entrega.
 
 ### Diagrama de Gantt:
+*[Insertar imagen o descripción del diagrama realizado]*
 
-[Inserir diagrama de Gantt aquí - per exemple, una imatge o descripció textual]
+## 8. Webgrafía
+- Documentación oficial de React y Node.js.
+- Recursos del curso para el diseño y despliegue web.
 
-## 8. Webgrafia
-
-- La web
-
-## 9. Annexos
-
-- Captures de pantalla de la interfície.
-- Resultats de proves de rendiment.
-- Codi font del projecte (enllaç a repositori GitHub).
+## 9. Anexos
+- Capturas de pantalla de la interfaz terminada.
+- Enlace al repositorio de código fuente (GitHub).
