@@ -27,7 +27,8 @@ Inspirada en el funcionamiento de Tinder, la app permite al usuario ver perfiles
 
 ### Hardware:
 - Ordenadores utilizados durante las horas de clase para el desarrollo.
-- Servidor (Raspberry Pi o Cloud) para realizar las pruebas de despliegue.
+- Servidor (Raspberry Pi) para realizar las pruebas de despliegue.
+- VS Code para el desarrollo de la página.
 
 ### Software:
 - **Frontend**: React.js para la parte visual y la interfaz.
@@ -49,7 +50,7 @@ Para el despliegue, hemos configurado el servidor para que la aplicación sea ac
 
 ### Sprints:
 - **Creación Diagrama De Gantt**: Planificación inicial del trabajo y tiempos.
-- **Configurar servidor raspberry**: Instalación del sistema operativo y entorno.
+- **Configurar servidor Raspberry**: Instalación del sistema operativo y entorno.
 - **Página inicio**: Desarrollo del HTML, CSS y JS de la sección principal.
 - **Enlaces entre páginas**: Programación de la navegación y botones simulados.
 - **Revisar textos y diseño**: Corrección de colores y alineación de las imágenes.
